@@ -10,8 +10,8 @@
 
     <!-- Add modules -->
     <modules>
-        <module>${rootArtifactId}-module1</module>
-        <module>${rootArtifactId}-module2</module>
+        <module>${module1}</module>
+        <module>${module2}</module>
     </modules>
 
     <properties>

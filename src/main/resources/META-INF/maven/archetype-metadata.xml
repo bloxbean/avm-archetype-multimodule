@@ -9,10 +9,18 @@
     <requiredProperty key="aion4j-maven-plugin-version">
       <defaultValue>x.x.x</defaultValue>
     </requiredProperty>
+
+    <requiredProperty key="module1">
+      <defaultValue>module1</defaultValue>
+    </requiredProperty>
+
+    <requiredProperty key="module2">
+      <defaultValue>module2</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <modules>
-    <module id="${rootArtifactId}-module1" dir="__rootArtifactId__-module1" name="${rootArtifactId}-module1">
+    <module id="${module1}" dir="__module1__" name="${module1}">
       <fileSets>
         <fileSet filtered="true" packaged="true">
           <directory>src/main/java</directory>
@@ -28,7 +36,7 @@
         </fileSet>
       </fileSets>
     </module>
-    <module id="${rootArtifactId}-module2" dir="__rootArtifactId__-module2" name="${rootArtifactId}-module2">
+    <module id="${module2}" dir="__module2__" name="${module2}">
       <fileSets>
         <fileSet filtered="true" packaged="true">
           <directory>src/main/java</directory>

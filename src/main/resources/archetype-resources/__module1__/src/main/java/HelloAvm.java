@@ -3,13 +3,13 @@ package ${package};
 import avm.Blockchain;
 import org.aion.avm.tooling.abi.Callable;
 
-public class HelloAvm2
+public class HelloAvm
 {
-    private static String myStr = "Hello AVM From ${rootArtifactId}-module2";
+    private static String myStr = "Hello AVM From ${module1}";
 
     @Callable
     public static void sayHello() {
-        Blockchain.println("Hello AVM From ${rootArtifactId}-module2");
+        Blockchain.println("Hello AVM From ${module1}");
     }
 
     @Callable
