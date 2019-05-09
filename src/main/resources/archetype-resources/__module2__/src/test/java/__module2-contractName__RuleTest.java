@@ -25,7 +25,7 @@ public class ${module2-contractName}RuleTest {
         //deploy Dapp:
         // 1- get the Dapp byes to be used for the deploy transaction
         // 2- deploy the Dapp and get the address.
-        byte[] dapp = avmRule.getDappBytes(${module2-contractName}.class, null);
+        byte[] dapp = avmRule.getDappBytes(${package}.${module2-contractName}.class, null);
         dappAddr = avmRule.deploy(from, BigInteger.ZERO, dapp).getDappAddress();
     }
 
