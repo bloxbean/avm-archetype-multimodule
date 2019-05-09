@@ -7,7 +7,7 @@ $> mvn archetype:generate -DarchetypeGroupId=org.aion4j -DarchetypeArtifactId=av
 -DarchetypeVersion=0.10 -Dmodule1=<module1_name> -Dmodule2=<module2_name>
 ```
 
-Current archetype version: 0.10
+Current archetype version: 0.11
 
 - In the generated project's pom.xml, change **aion4j.plugin.version** property to latest version of [aion4j-maven-plugin](https://github.com/satran004/aion4j-maven-plugin)
 
