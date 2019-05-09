@@ -17,6 +17,15 @@
     <requiredProperty key="module2">
       <defaultValue>module2</defaultValue>
     </requiredProperty>
+
+    <requiredProperty key="module1-contractName">
+      <defaultValue>HelloAvm</defaultValue>
+    </requiredProperty>
+
+    <requiredProperty key="module2-contractName">
+      <defaultValue>HelloAvm2</defaultValue>
+    </requiredProperty>
+
   </requiredProperties>
 
   <modules>

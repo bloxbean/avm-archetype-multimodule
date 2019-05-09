@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import java.math.BigInteger;
 
-public class HelloAvm2RuleTest {
+public class ${module2-contractName}RuleTest {
     @ClassRule
     public static AvmRule avmRule = new AvmRule(true);
 
@@ -25,7 +25,7 @@ public class HelloAvm2RuleTest {
         //deploy Dapp:
         // 1- get the Dapp byes to be used for the deploy transaction
         // 2- deploy the Dapp and get the address.
-        byte[] dapp = avmRule.getDappBytes(HelloAvm2.class, null);
+        byte[] dapp = avmRule.getDappBytes(${module2-contractName}.class, null);
         dappAddr = avmRule.deploy(from, BigInteger.ZERO, dapp).getDappAddress();
     }
 

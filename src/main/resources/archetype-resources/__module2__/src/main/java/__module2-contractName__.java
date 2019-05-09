@@ -3,7 +3,7 @@ package ${package};
 import avm.Blockchain;
 import org.aion.avm.tooling.abi.Callable;
 
-public class HelloAvm2
+public class ${module2-contractName}
 {
     private static String myStr = "Hello AVM From ${module2}";
 

@@ -14,7 +14,7 @@
 
     <properties>
         <avm.lib.dir>${project.basedir}/../lib</avm.lib.dir>
-        <contract.main.class>${package}.HelloAvm</contract.main.class>
+        <contract.main.class>${package}.${module1-contractName}</contract.main.class>
     </properties>
 
 </project>
