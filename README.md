@@ -4,10 +4,10 @@ Maven archetype to generate  multi module AVM based smart contract project in ja
 
 ```
 $> mvn archetype:generate -DarchetypeGroupId=org.aion4j -DarchetypeArtifactId=avm-archetype-multimodule 
--DarchetypeVersion=0.12 -Dmodule1=<module1_name> -Dmodule2=<module2_name> -Dmodule1-contractName=<module1_contractName> -Dmodule2-contractName=<module2_contractName>
+-DarchetypeVersion=0.13 -Dmodule1=<module1_name> -Dmodule2=<module2_name> -Dmodule1-contractName=<module1_contractName> -Dmodule2-contractName=<module2_contractName>
 ```
 
-Current archetype version: 0.12
+Current archetype version: 0.13
 
 #### Default values of parameters :
 
