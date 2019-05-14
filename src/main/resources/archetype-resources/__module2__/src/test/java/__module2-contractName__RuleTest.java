@@ -5,7 +5,7 @@ import avm.Address;
 import org.aion.avm.tooling.AvmRule;
 import org.aion.vm.api.interfaces.ResultCode;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.ClassRule;
 import org.junit.Test;
 
@@ -16,12 +16,12 @@ public class ${module2-contractName}RuleTest {
     public static AvmRule avmRule = new AvmRule(true);
 
     //default address with balance
-    private Address from = avmRule.getPreminedAccount();
+    private static Address from = avmRule.getPreminedAccount();
 
-    private Address dappAddr;
+    private static Address dappAddr;
 
-    @Before
-    public void deployDapp() {
+    @BeforeClass
+    public static void deployDapp() {
         //deploy Dapp:
         // 1- get the Dapp byes to be used for the deploy transaction
         // 2- deploy the Dapp and get the address.
