@@ -14,7 +14,7 @@ try {
 
     def replace = "x.x.x";
 
-    def version = new URL ("https://bloxbean.github.io/aion4j-release/aion4j-maven-plugin").getText([connectTimeout: 3000, readTimeout: 3000])
+    def version = new URL ("https://bloxbean.github.io/aion4j-release/aion4j-maven-plugin-2").getText([connectTimeout: 3000, readTimeout: 3000])
 
     if(version.contains("<") || version.length() > 25)
         return;
